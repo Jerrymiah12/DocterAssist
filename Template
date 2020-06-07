@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light Theme</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header class="header">
+    <h4 class="logo">DocterAssist</h4>
+  </header>
+  <!-- Hero Section -->
+  <section class="intro">
+    <div class="column">
+      <h3>JEREMIAH BAILEY</h3>
+      <img src="images/profile.png" alt="" class="profile"> </div>
+    <div class="column">
+     <br> <br> <br> <p>I am a medical worker. My hospital is in desperate need of supplies. I have a few request below.&nbsp; &nbsp;&nbsp; </p>
+    </div>
+  </section>
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>More Mask&nbsp;</h4>
+      <p class="tag">Kaiser Permanente &nbsp;</p>
+      <p style = "color:black" class="text_column">We need more masks, please for our employes.&nbsp;&nbsp;</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>More Ventilators</h4>
+      <p class="tag">Kaiser Permanente&nbsp;</p>
+      <p  style = "color:black" class="text_column">We need more ventilators, please for our customers.&nbsp;</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>More Gloves&nbsp;</h4>
+      <p class="tag">Kaiser Permanente &nbsp;</p>
+      <p style = "color:black" class="text_column">We need more glove, please for our employes.&nbsp;&nbsp;</p>
+    </div>
+	  <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <label>
+	<button onclick="window.location.href='DocterAssist4.html;" type="submit" class = "center"> + Add new request </button>
+    </label>
+    </div>
+	 
+
+
+  </div>
+  <!-- Footer Section -->
+  <footer id="contact">
+    <p class="hero_header">IF YOU NEED TO GET IN TOUCH WITH ME</p>
+    <div class="button">EMAIL ME </div>
+  </footer>
+  <!-- Copyrights Section -->
+<div class="copyright">&copy;2019 - <strong>GRID</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
