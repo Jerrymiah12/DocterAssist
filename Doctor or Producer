@@ -1,0 +1,62 @@
+<!doctype html>
+<html><head>
+		<style>
+h3 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+	
+	<style>
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+		}
+		</style>
+			<style>
+.images
+{
+display: inline;
+margin: 0px;
+padding: 0px;
+}
+
+#content
+{
+display: block;
+margin: 0px;
+padding: 0px;
+position: relative;
+top: 90px;
+height: auto;
+max-width: auto;
+overflow-y: hidden;
+overflow-x:auto;
+
+}
+
+
+#content img
+{
+display: inline-block;
+    margin-right:5px;
+    border:1px solid #ccc;
+}
+		</style>
+		
+<meta charset="utf-8">
+<title>DoctorAssist1</title>
+</head>
+<img src = "Better_logo.png" alt = "Better" class = "center">
+	<button class="center"> <a href="DocterAssist3.html" class="center" title="Doctor">Doctor</a> </button>
+<h3> or</h3>
+	<label>
+	<button class="center"> <a href="DocterAssist9.html" class="center" title="Maker">Donater</a> </button>
+    </label>
+	<hr> 
+	<div id="content">
+<img src="74dfb01e-1fa4-4637-9bc7-970c3cb53c06.jpg" width="535" height="400" class = "images"  alt=""/>
+<img src="Myrna-Fletcher-masks.jpg" width="500" height="400" class = "images" alt=""/>
+	</div>
+</html>
