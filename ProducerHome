@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light Theme</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+
+		<style>
+	 #button {
+     line-height: 12px;
+     width: 18px;
+     font-size: 8pt;
+     font-family: tahoma;
+     margin-top: 1px;
+     margin-right: 2px;
+     position:absolute;
+     top:10;
+     right:10;
+ }
+		</style>
+		<style>
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+		}
+		</style>
+			<style>
+	.center1 {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  width: 10%;
+		}
+		</style>
+
+</head>
+<body>
+	<script>
+    function pageRedirect() {
+        window.location.replace("DocterAssist8.html");
+    }      
+</script>
+	<button style="Float:right" onclick="pageRedirect()">
+  <img src="images/profile.png" width="175" height="100" style="float:right" alt=""/></button>
+	<img src="user-input-controls-search.jpg" width="321" height="166" style="float:left" alt=""/><img src="Better_Logo.PNG" width="450" height="225" class="center" alt=""/>
+	<img src="download.png" width="100" height="100" class="center1" alt=""/>
+	<!-- Stats Gallery Section -->
+    <div class="gallery">
+    <div class="thumbnail"><a href="#"><img src="mask-4964590_1280.png" alt="" width="2000" class="cards"/></a>
+      <h4>More Mask&nbsp;</h4>
+      <p class="tag">Kaiser Permanente &nbsp;</p>
+      <p style = "color:black" class="text_column">We need more masks, please for our employes.&nbsp;&nbsp;</p>
+		<label>
+	<button class="center"> <a href="DocterAssist8.html" class="center1" title="New_Request">Finish Request</a> </button>
+    </label>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="Venti.png" alt="" width="2000" class="cards"/></a>
+      <h4>More Ventilators</h4>
+      <p class="tag">Kaiser Permanente&nbsp;</p>
+      <p  style = "color:black" class="text_column">We need more ventilators, please for our customers.&nbsp;</p>
+		<label>
+	<button class="center"> <a href="DocterAssist8.html" class="center1" title="New_Request">Finish Request</a> </button>
+    </label>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="handsome-doctor-wearing-gloves-illustration_72076-346.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>More Gloves&nbsp;</h4>
+      <p class="tag">Kaiser Permanente &nbsp;</p>
+      <p style = "color:black" class="text_column">We need more glove, please for our employes.&nbsp;&nbsp;</p>
+		<label>
+	<button class="center"> <a href="DocterAssist8.html" class="center1" title="New_Request">Finish Request</a> </button>
+    </label>
+    </div>
+	<div class="thumbnail"> <a href="#"><img src="Kid mask.png" alt="" width="2000" class="cards"/></a>
+      <h4>More Kid Mask&nbsp;</h4>
+      <p class="tag">Kaiser Permanente &nbsp;</p>
+      <p style = "color:black" class="text_column">We need more kid masks, please for our patients.&nbsp;&nbsp;</p>
+		<label>
+	<button class="center"> <a href="DocterAssist8.html" class="center1" title="New_Request">Finish Request</a> </button>
+    </label>
+    </div>
+
+	 
+
+
+</div>
+  <!-- Footer Section -->
+  <footer id="contact">
+    <p class="hero_header">Need Assistance?&nbsp; &nbsp;&nbsp;</p>
+    <div class="button">EMAIL ME </div>
+  </footer>
+  <!-- Copyrights Section -->
+<div class="copyright">&copy;2019 - <strong>GRID</strong></div>
+<!-- Main Container Ends -->
+</body>
+</html>
