@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DocterAssist</title>
+		<style>
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+		}
+		</style>
+	<style>
+h2 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+	<link href="DocterAssistCss0.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	 <img src = "Better_logo.png" alt="Better" class = "center">
+	<form action="action_page.php" method="post">
+<h2> Welcome to DoctorAssist! This website is designed to connect healthcare providers with medical equipment producers.
+		</h2>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <br> <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+<label>
+    <br> <button><a button href="DocterAssist1.html" title="Login" target="_blank" type="submit"> Login </a></button>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+		<label>
+		<br><button><a button href="DocterAssist1.html" title="Sign up" target="_blank" type="submit"> Create a new account</a></button>
+    </label>
+  </div>
+  <div class="container" style="background-color:#f1f1f1">
+	  <p> <span class="psw">Forgot <a href="#">password?</a></span> </p> </div>
+	<div id="content">
+		 <img src="action-character-doctor-cute_105783-33.jpg" width="400" height="400" alt=""/>
+		<img src="download (1).jpg" width="600" height="400" alt=""/>
+	  
+		</div>
+	  
+</form>
+</body>
+</html>
