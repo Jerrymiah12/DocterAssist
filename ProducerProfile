@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light Theme</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header class="header">
+    <h4 class="logo">DoctorAssist</h4>
+  </header>
+  <!-- Hero Section -->
+  <section class="intro">
+    <div class="column">
+      <h3>TAMMY BURNS</h3>
+      <img src="images/profile.png" alt="" class="profile"> </div>
+    <div class="column">
+     <br> <br> <br> <p>I am a medical producer. I am a willing to help doctors with supplies. &nbsp; &nbsp;&nbsp; </p>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer id="contact">
+    
+    <div class="button">Click to Edit&nbsp; </div>
+  </footer>
+  <!-- Copyrights Section -->
+<div class="copyright">&copy;2020 - <strong>GRID</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
+
